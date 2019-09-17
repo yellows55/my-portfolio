@@ -1,3 +1,7 @@
+body {
+  min-height: 900px;
+}
+
 header {
   display: flex;
 }
@@ -6,15 +10,28 @@ header {
   width: 100%;
 }
 
-main {
+main{
+  font-family: 'Kreon', serif;  
   position: relative;
-  margin-top: 15%;
-  left: -12%;
 }
 
-p {
-  margin-left: 20%;
-  //margin-right: 20%;
+.home-page {
+  //position: relative;
+  margin-top: 15%;
+      margin-right: 40px;
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 1020px) {
+  .home-page {
+    margin-top: 12%;
+    left: 25%;
+}
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .menu {
@@ -29,6 +46,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   justify-items: flex-end;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 @media screen and (min-width: 780px) {
@@ -42,11 +60,12 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .half-circle {
   //padding: 60px;
-  background-color: grey;
+  background-color: #39F9721a;
   width: 100px;
   height: 100px;
   border-bottom-left-radius: 100px;
@@ -61,32 +80,42 @@ li{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: grey;
+  background-color: #39F972;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .portfolio {
   position: absolute;
-  top: 48%;
+  top: 40%;
   right: 1%;
   z-index: -1;
   cursor: pointer;
 }
 
+@media screen and (min-width: 720px) {
+  .portfolio {
+    top: 25%;
+    right: 20%;
+}
+}
+
+
 .small-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: grey;
+  background-color: #FFFF47;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .bio {
@@ -99,7 +128,21 @@ li{
 
 @media screen and (min-width: 420px) {
   .bio {
-    top: 15%;
+    //top: 15%;
+}
+}
+
+@media screen and (min-width: 780px) {
+  .bio {
+    top: 25%;
+    left: 15%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  .bio {
+    top: 35%;
+    left: 20%;
 }
 }
 
@@ -107,17 +150,18 @@ li{
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: grey;
+  background-color: #FF6347;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .contact {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: -5%;
   z-index: -1;
   cursor: pointer;
@@ -126,11 +170,27 @@ li{
 @media screen and (min-width: 780px) {
   .contact {
     left: 0%;
+    top: 60%;
+
 }
 }
+
+@media screen and (min-width: 1020px) {
+  .contact {
+    left: 50%;
+}
+}
+
 
 .contact-page {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (min-width: 780px) {
+  .contact-page {
+    flex-direction: row;
+    justify-content: space-around;
+}
 }
