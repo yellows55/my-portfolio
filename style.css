@@ -18,8 +18,8 @@ main{
 .home-page {
   //position: relative;
   margin-top: 15%;
-      margin-right: 40px;
-    margin-left: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 @media screen and (min-width: 1020px) {
@@ -186,6 +186,7 @@ li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Kreon', serif;  
 }
 
 @media screen and (min-width: 780px) {
