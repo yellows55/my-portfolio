@@ -91,7 +91,7 @@ li{
 
 .portfolio {
   position: absolute;
-  top: 40%;
+  top: 360px;
   right: 1%;
   z-index: -1;
   cursor: pointer;
@@ -99,7 +99,7 @@ li{
 
 @media screen and (min-width: 720px) {
   .portfolio {
-    top: 25%;
+    top: 320px;
     right: 20%;
 }
 }
@@ -120,7 +120,7 @@ li{
 
 .bio {
   position: absolute;
-  top: 15%;
+  top: 135px;
   left: 10%;
   z-index: 0;
   cursor: pointer;
@@ -134,14 +134,14 @@ li{
 
 @media screen and (min-width: 780px) {
   .bio {
-    top: 25%;
-    left: 15%;
+    //top: 225px;
+    //left: 15%;
 }
 }
 
 @media screen and (min-width: 1000px) {
   .bio {
-    top: 35%;
+    top: 200px;
     left: 20%;
 }
 }
@@ -161,7 +161,7 @@ li{
 
 .contact {
   position: absolute;
-  top: 50%;
+  top: 450px;
   left: -5%;
   z-index: -1;
   cursor: pointer;
@@ -170,7 +170,7 @@ li{
 @media screen and (min-width: 780px) {
   .contact {
     left: 0%;
-    top: 60%;
+    top: 540px;
 
 }
 }
@@ -186,7 +186,8 @@ li{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Kreon', serif;  
+    font-family: 'Kreon', serif;  
+
 }
 
 @media screen and (min-width: 780px) {
