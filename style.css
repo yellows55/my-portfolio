@@ -129,7 +129,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
@@ -138,7 +137,6 @@ h2 {
   top: 360px;
   right: 1%;
   z-index: 0;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 720px) {
@@ -158,7 +156,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
@@ -186,7 +183,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
@@ -226,7 +222,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   font-family: 'Kreon', serif;  
 }
 
